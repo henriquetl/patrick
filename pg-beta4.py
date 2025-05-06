@@ -10,7 +10,7 @@ def calcular_periodo_fertil(data_menstruacao, ciclo_medio):
 
 # ---- EXIBIR IMAGEM ACIMA DO TÍTULO ----
 imagem_topo = Image.open("logo-topo.jpeg")  # Nome da sua nova imagem
-st.image(imagem_topo, use_column_width=True)
+st.image(imagem_topo, use_column_width=50)
 
 st.title("Calculadora Patiguiquinho não quer ser papai - Versão Beta-0.1")
 
@@ -32,7 +32,7 @@ if st.button("Verificar os dias seguros pra torar a nega"):
             dias_seguro.append(dia_teste.strftime("%d/%m/%Y"))
 
     if dias_seguro:
-        resultado_texto = "Pode gozar na caçapa da nega em:\n" + "\n".join(dias_seguro)
+        resultado_texto = "Pode gozar na caçapa da nega em:\n " + "\n;".join(dias_seguro)
         imagem_resultado = Image.open("logo-patick.jpeg")
         st.image(imagem_resultado, width=150)
         st.success(resultado_texto)
