@@ -33,7 +33,7 @@ st.markdown(
 
 # --- TÍTULO CENTRALIZADO ---
 st.markdown(
-    "<h3 style='text-align: center;'>Patiguiquinho não quer ser (nem que você seja) papai, verifica a tabelinha! - Beta-0.4</h3>",
+    "<h3 style='text-align: center;'>Patiguiquinho não quer ser (nem que você seja) papai, verifica a tabelinha!</h3>",
     unsafe_allow_html=True
 )
 
